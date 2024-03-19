@@ -87,7 +87,7 @@ End Unverified
 
 **EndOf Hiding and showing Question text  Code **
  
-## Other Validation( ** normal ** ) on grid type 
+## Other Validation normal on grid type 
 
 ```
 //removing all the error highlightings
@@ -198,12 +198,13 @@ var ar=[% ListValuesArray(CS4RowList) %];
 	
 	
 	
-	```
+```
 	
 **End of Column wise autofill**
 	
 ## Auto Populate COlumn wise
-	```
+
+```
 	
 	<script type="text/javascript">
 //Auto Populate code Column wise
@@ -253,7 +254,7 @@ if(brw.indexOf("IE")==-1)
 </script>
 	
 	
-	```
+```
 	
 **End of Auto populate Column wise**
 	
@@ -263,7 +264,7 @@ if(brw.indexOf("IE")==-1)
 	
 ## Auto Populate Row wise code
 	
-	```
+```
 	<script type="text/javascript">
 /*$("#[% QuestionName() %]_r1_c1").val(sum2(1));
 $("#[% QuestionName() %]_r2_c1").val(sum1(1));
@@ -316,9 +317,11 @@ if(brw.indexOf("IE")==-1)
 </script>  
 
 ```
+
 ** EndOf Auto populate Row wise code**
 
 ## StartOf Hiding label based on multiple vs single row
+
 ```
 <script>
 	$( window ).on("load", function() {
@@ -359,10 +362,12 @@ if (countGreaterThanZero === 1) {
 
 
 ```
+
 ** EndOf Hiding label based on multiple vs single row**
 
 
 ## StartOf Dynamic Radio using loop
+
 ```
 
 <script>
@@ -415,9 +420,11 @@ function SSI_CustomGraphicalRadiobox(GraphicalRadioboxObj, InputObj)
 
 
 ```
+
 ** EndOf Dynamic Radio Using loop**
 
 ## Piping Of Values from other Question
+
 ```
 
 
@@ -454,9 +461,11 @@ $(".grid_c1").addClass("cgrey"); //greying out for the column which is piped fro
 
 
 ```
+
 ** EndOf Piping Of Values from other Question**
 
 ## StartOf OpenEnd with checkbox greyOut
+
 ```
 
 
@@ -481,6 +490,7 @@ if(SSI_GetValue("[% QuestionName() %]_r2_c1")==0)
 
 
 ```
+
 ** EndOf OpenEnd with checkbox greyOut**
 
 ## StartOF searching for a word in html
@@ -504,6 +514,7 @@ boldTextContainingMS();
 
 
 ```
+
 ** EndOf searching for a word in html**
 
 ## StartOf Radio Button pipe in
