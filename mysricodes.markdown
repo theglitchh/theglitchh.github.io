@@ -200,9 +200,9 @@ var ar=[% ListValuesArray(CS4RowList) %];
 	
 	```
 	
-	**End of Column wise autofill**
+**End of Column wise autofill**
 	
-	## Auto Populate COlumn wise
+## Auto Populate COlumn wise
 	```
 	
 	<script type="text/javascript">
@@ -255,13 +255,13 @@ if(brw.indexOf("IE")==-1)
 	
 	```
 	
-	**End of Auto populate Column wise**
+**End of Auto populate Column wise**
 	
 	
 	
 	
 	
-	## Auto Populate Row wise code
+## Auto Populate Row wise code
 	
 	```
 	<script type="text/javascript">
