@@ -14,7 +14,7 @@ function findrange(cellid)
 
 ```
 
-** EndOf numeric restriction code.**
+**EndOf numeric restriction code**
 
 
 ## StartOf shuffle code 
@@ -36,7 +36,7 @@ End Unverified
 
 ```
 
-** EndOf shuffle Code. **
+**EndOf shuffle Code **
 
 
 ## First table corner with span
@@ -57,7 +57,7 @@ End Unverified
 
 ```
 
-** EndOf table corner with span Code. **
+**EndOf table corner with span Code **
 
 
 ## Hiding and showing Question text 
@@ -85,7 +85,7 @@ End Unverified
 
 ```
 
-** EndOf Hiding and showing Question text  Code. **
+**EndOf Hiding and showing Question text  Code **
  
 ## Other Validation( ** normal ** ) on grid type 
 
@@ -121,9 +121,9 @@ else if($("#[% QuestionName() %]_r14_1_graphical").hasClass("radioboxselected") 
 
 ```
 
-** EndOf Other Validation(normal) on grid type Code. **
+**EndOf Other Validation(normal) on grid type Code **
 
-##Auto fill in constant sum(Column wise)
+## Auto fill in constant sum(Column wise)
 
 ```
 //validation for other specify for both the cases
@@ -167,9 +167,9 @@ else
 
 ```
 
-**EndOf Row Wise auto fill.
+**EndOf Row Wise auto fill**
 
-##StartOf Column wise auto fill
+## StartOf Column wise auto fill
 
 ```
 var ar=[% ListValuesArray(CS4RowList) %];
