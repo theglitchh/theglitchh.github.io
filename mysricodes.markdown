@@ -627,6 +627,7 @@ if (count == 9 && flag) {
 
 
 ```
+
        $('.inner_table tbody tr td:first').addClass('firsttdclass'); 
 		
 		
@@ -644,7 +645,7 @@ Please <a href="[%GraphicsPath()%]avycaz.html" target="_blank"><b>click here</b>
 
 ```
 
-*** EndOf Product profile code**
+** EndOf Product profile code**
 
 
 ## StartOf Other specify for grid with multiple checkbox 
@@ -675,8 +676,8 @@ $("td").css("border-width","1px");
 		$("#[% QuestionName() %]_r12_other").addClass("error_highlight");
 	}
 	
-	
-	```
+
+```
 	
 ** EndOF Other specify for grid with multiple checkbox **
 
@@ -740,6 +741,7 @@ End Unverified %]
 ## StartOf Grid resize
 
 ```
+
 <script>
 $( document ).ready(function() {
   
@@ -757,6 +759,7 @@ End Unverified %]
 });
 
 </script>
+
 
 ```
 
