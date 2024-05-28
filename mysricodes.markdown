@@ -868,3 +868,38 @@ if([% ListLength(A1RowList) %]<=3)
 
 ```
 ** StartOf Adding empty space before Not Aware column**
+
+## Switch case for numeric validation
+```
+<script type="text/javascript">
+     function findrange(cellid) {
+        switch (cellid) {
+            case "S5_r1_c1":
+                max_num = 60;
+                break;
+            case "S5_r2_c1":
+			//var a = $("#S5_r1_c1").val();
+                max_num = 60;
+                break;
+            case "S5_r3_c1":
+                max_num = 60;
+                break;
+            case "S5_r4_c1":
+                max_num = 60;
+                break;
+            case "S5_r5_c1":
+                max_num = 60;
+                break;
+            case "S5_r6_c1":
+                max_num = 60;
+                break;
+            default:
+                max_num = 60;
+        }
+        restrict_zero = false;
+    }
+</script>
+
+```
+
+** EndOf Switch case for numeric validation**
